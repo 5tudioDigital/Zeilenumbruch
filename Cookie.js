@@ -73,18 +73,18 @@ function nocookies() {
 
 
 
-"true" == GA_cookie && (document.getElementById("AN_Check").checked = !0), 
-"true" == FB_cookie && (document.getElementById("RE_Check").checked = !0), 
+"true" == AN_cookie && (document.getElementById("AN_Check").checked = !0), 
+"true" == RE_cookie && (document.getElementById("RE_Check").checked = !0), 
 
     
     
-"false" == GA_cookie && (document.getElementById("AN_Check").checked = !1), 
-"false" == FB_cookie && (document.getElementById("RE_Check").checked = !1), 
+"false" == AN_cookie && (document.getElementById("AN_Check").checked = !1), 
+"false" == RE_cookie && (document.getElementById("RE_Check").checked = !1), 
 
 
                                                                                
-    GA_cookie || (document.getElementById("AN_Check").checked = !0), 
-    FB_cookie || (document.getElementById("RE_Check").checked = !0), 
+    AN_cookie || (document.getElementById("AN_Check").checked = !0), 
+    RE_cookie || (document.getElementById("RE_Check").checked = !0), 
 
 
 alreadyLoaded ? document.getElementById("consentPopup").style.display = "none" : (document.getElementById("consentPopup").style.display = "block") 
