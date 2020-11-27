@@ -72,7 +72,6 @@ function nocookies() {
 }
 
 
-
 "true" == AN_cookie && (document.getElementById("AN_Check").checked = !0), 
 "true" == RE_cookie && (document.getElementById("RE_Check").checked = !0), 
 
