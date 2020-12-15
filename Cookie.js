@@ -46,7 +46,7 @@ var AN_cookie = getCookie("AN_DS"),
 
 function checkSettings() {
     document.getElementById("AN_Check").checked ? setCookie("AN_DS", "true", 999) : setCookie("AN_DS", "false", 999), 
-    document.getElementById("GA_Check").checked ? setCookie("RE_DS", "true", 999) : setCookie("RE_DS", "false", 999), 
+    document.getElementById("RE_Check").checked ? setCookie("RE_DS", "true", 999) : setCookie("RE_DS", "false", 999), 
     location.reload()
 }
 
